@@ -1,0 +1,131 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.search-form {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 12px 15px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  border-color: #3498db;
+}
+
+.search-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0 25px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #2980b9;
+}
+
+.result-card {
+  border-left: 5px solid #2ecc71;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.result-card.invalid {
+  border-left-color: #e74c3c;
+}
+
+.result-title {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.valid-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #2ecc71;
+  color: white;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.invalid-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.info-item {
+  margin-bottom: 10px;
+}
+
+.info-label {
+  font-weight: bold;
+  color: #7f8c8d;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.info-value {
+  font-size: 16px;
+}
+
+.flag-icon {
+  width: 24px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+  .info-grid {
+      grid-template-columns: 1fr;
+  }
+  
+  .search-form {
+      flex-direction: column;
+  }
+  
+  .search-input {
+      border-radius: 5px;
+      margin-bottom: 10px;
+  }
+  
+  .search-button {
+      border-radius: 5px;
+      padding: 12px;
+  }
+}
