@@ -1,5 +1,5 @@
 
-# Phone Number Validator
+# ![Phone Number Validator](https://compuser21.github.io/phone-validator/)
 
 A web application that validates and provides detailed information about phone numbers using the [Phone Validation API](https://docs.abstractapi.com/phone-validation).
 
@@ -15,10 +15,11 @@ A web application that validates and provides detailed information about phone n
 ✅ Clean, responsive interface  
 
 ## Usage
-
-1.  Enter a phone number
+1. Go to https://compuser21.github.io/phone-validator/
+   
+2.  Enter a phone number
     
-2.  The validator will automatically:
+3.  The validator will automatically:
     
     -   Verify if the number is valid
         
