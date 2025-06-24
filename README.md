@@ -1,5 +1,5 @@
 
-# [Phone Number Validator[(https://compuser21.github.io/phone-validator/)
+# [Phone Number Validator](https://compuser21.github.io/phone-validator/)
 
 A web application that validates and provides detailed information about phone numbers using the [Phone Validation API](https://docs.abstractapi.com/phone-validation).
 
